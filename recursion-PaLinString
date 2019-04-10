@@ -4,6 +4,6 @@ bool is PaLinString(int n, char* str)
         //列举两种简单情况，如果是只有一个元素或者没有元素，都是回文
         return true;
     else
-        //判断前后字符是否一致，如果一致继续判断，不一致返回false
+        //判断前后字符是否一致，如果一致继续判断，不一致返回false.
         return str[0] == str[n-1] ? isPalinString(n-2, str+1): false;
 }
