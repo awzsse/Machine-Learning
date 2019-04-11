@@ -1,0 +1,5 @@
+In python, for...[if]..can build List
+a = [1,2,3,4,5]
+newa = [x for x in a if x%2==0]
+print(newa)
+>>> [2,4]
